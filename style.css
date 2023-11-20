@@ -54,7 +54,7 @@ body {
 }
 
 #logo {
-  width: 8vmax;
+  width: 11vmax;
 }
 
 .navlinks {
@@ -232,7 +232,7 @@ body {
   width: 100%;
   height: 100%;
 
-  background-image: url(https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(./assets/images/IMG_1.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -628,7 +628,9 @@ body {
   justify-content: space-around;
   padding: 3rem 0;
 }
-
+.footer-top #logo{
+  width: 300px;
+}
 .footer-top > div {
   display: flex;
   flex-direction: column;
@@ -709,7 +711,7 @@ body {
 
 @media (max-width: 770px) {
   #logo {
-    width: 15vw;
+    width: 20vw;
   }
 
   #hero {
@@ -854,7 +856,7 @@ body {
 
 @media (max-width: 450px) {
   #logo {
-    width: 25vw;
+    width: 36vw;
   }
   .hero-right h1 {
     font-size: 3vw;
@@ -954,7 +956,7 @@ body {
     padding: 1rem 0.5rem;
   }
   .footer-top #logo {
-    width: 200px;
+    width: 300px;
   }
   .footer-top > div:nth-last-child(1) h3 {
     font-size: 4vw;
